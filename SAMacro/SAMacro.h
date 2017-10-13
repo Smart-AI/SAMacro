@@ -30,18 +30,18 @@
 #define SA_RGB(r, g, b)         	SA_RGBA(r, g, b, 1)
 #define SA_RAN_COLOR            	SA_RGB(arc4random()%256,arc4random()%256,arc4random()%256)
 
-#define SA_IMAGE(i)              [UIImage imageNamed:i]
+#define SA_IMAGE(i)               [UIImage imageNamed:i]
 
-#define KFont(s)                 [UIFont systemFontOfSize:s]
-#define KFontPF(s)   						 [UIFont fontWithName:@"PingFangSC-Regular" size:s]
-#define KFontPFM(s)              [UIFont fontWithName:@"PingFangSC-Medium" size:s]
+#define KFont(s)                  [UIFont systemFontOfSize:s]
+#define KFontPF(s)   						  [UIFont fontWithName:@"PingFangSC-Regular" size:s]
+#define KFontPFM(s)               [UIFont fontWithName:@"PingFangSC-Medium" size:s]
 
-#define SA_LTS(longNum)          [NSString stringWithFormat:@"%ld", longNum]
-#define SA_ITS(intNum)           [NSString stringWithFormat:@"%d", intNum]
-#define SA_FTS(floatNum)         [NSString stringWithFormat:@"%f", floatNum]
+#define SA_LTS(longNum)           [NSString stringWithFormat:@"%ld", longNum]
+#define SA_ITS(intNum)            [NSString stringWithFormat:@"%d", intNum]
+#define SA_FTS(floatNum)          [NSString stringWithFormat:@"%f", floatNum]
 
-#define SA_DEFAULTS              [NSUserDefaults standardUserDefaults]
-#define SA_SYNC                  [SA_DEFAULTS synchronize]
+#define SA_DEFAULTS               [NSUserDefaults standardUserDefaults]
+#define SA_SYNC                   [SA_DEFAULTS synchronize]
 
 #ifndef SA_KWEAKFY
 
