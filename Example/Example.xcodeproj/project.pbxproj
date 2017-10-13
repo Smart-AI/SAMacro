@@ -51,6 +51,7 @@
 		FD8CEC981F905A7D00716054 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8CEC9C1F905A7D00716054 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		FD8CEC9E1F905A7D00716054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8CECAB1F905B2200716054 /* SAMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		FD8CEC6C1F905A7C00716054 = {
 			isa = PBXGroup;
 			children = (
+				FD8CECAA1F905B0E00716054 /* SAMacro */,
 				FD8CEC771F905A7C00716054 /* Example */,
 				FD8CEC901F905A7C00716054 /* ExampleTests */,
 				FD8CEC9B1F905A7D00716054 /* ExampleUITests */,
@@ -130,6 +132,15 @@
 				FD8CEC9E1F905A7D00716054 /* Info.plist */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		FD8CECAA1F905B0E00716054 /* SAMacro */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CECAB1F905B2200716054 /* SAMacro.h */,
+			);
+			name = SAMacro;
+			path = ../SAMacro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +210,7 @@
 				TargetAttributes = {
 					FD8CEC741F905A7C00716054 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					FD8CEC8C1F905A7C00716054 = {
 						CreatedOnToolsVersion = 9.0;
@@ -430,11 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,11 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

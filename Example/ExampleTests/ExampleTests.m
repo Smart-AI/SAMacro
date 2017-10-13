@@ -2,7 +2,7 @@
 //  ExampleTests.m
 //  ExampleTests
 //
-//  Created by zhuwencheng on 2017/10/13.
+//  Created by Smart-AI on 2017/10/13.
 //  Copyright © 2017年 Smart-AI. All rights reserved.
 //
 
