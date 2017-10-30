@@ -1,6 +1,6 @@
 //
 //  SAMacro.h
-//  Example
+//  SAMacro
 //
 //  Created by Smart-AI on 2017/10/13.
 //  Copyright © 2017年 Smart-AI. All rights reserved.
@@ -43,12 +43,12 @@
 #define SA_DEFAULTS               [NSUserDefaults standardUserDefaults]
 #define SA_SYNC                   [SA_DEFAULTS synchronize]
 
-#ifndef SA_KWEAKFY
+#ifndef SA_WEAKFY
 
 #if DEBUG
-#define SA_KWEAKFY(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+#define SA_WEAKFY(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
 #else
-#define SA_KWEAKFY(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+#define SA_WEAKFY(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
 #endif
 
 #endif
@@ -63,5 +63,4 @@
 
 #endif
 
-
-#endif /* SAMacro_h */
+#endif

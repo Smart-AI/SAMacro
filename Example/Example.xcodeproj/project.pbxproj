@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54670E351FA76F4C00275D17 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54670E341FA76F4C00275D17 /* Info.plist */; };
+		54670E371FA76F6400275D17 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54670E361FA76F6400275D17 /* Info.plist */; };
+		54670E391FA76F7600275D17 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54670E381FA76F7600275D17 /* Info.plist */; };
 		FD8CEC7A1F905A7C00716054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CEC791F905A7C00716054 /* AppDelegate.m */; };
 		FD8CEC7D1F905A7C00716054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CEC7C1F905A7C00716054 /* ViewController.m */; };
 		FD8CEC801F905A7C00716054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8CEC7E1F905A7C00716054 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54670E341FA76F4C00275D17 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54670E361FA76F6400275D17 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54670E381FA76F7600275D17 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8CEC751F905A7C00716054 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8CEC781F905A7C00716054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD8CEC791F905A7C00716054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,14 +49,11 @@
 		FD8CEC7F1F905A7C00716054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD8CEC811F905A7C00716054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8CEC841F905A7C00716054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FD8CEC861F905A7C00716054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8CEC871F905A7C00716054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD8CEC8D1F905A7C00716054 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8CEC911F905A7C00716054 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
-		FD8CEC931F905A7C00716054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8CEC981F905A7D00716054 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8CEC9C1F905A7D00716054 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
-		FD8CEC9E1F905A7D00716054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8CECAB1F905B2200716054 /* SAMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +113,7 @@
 				FD8CEC7E1F905A7C00716054 /* Main.storyboard */,
 				FD8CEC811F905A7C00716054 /* Assets.xcassets */,
 				FD8CEC831F905A7C00716054 /* LaunchScreen.storyboard */,
-				FD8CEC861F905A7C00716054 /* Info.plist */,
+				54670E341FA76F4C00275D17 /* Info.plist */,
 				FD8CEC871F905A7C00716054 /* main.m */,
 			);
 			path = Example;
@@ -119,8 +122,8 @@
 		FD8CEC901F905A7C00716054 /* ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				54670E361FA76F6400275D17 /* Info.plist */,
 				FD8CEC911F905A7C00716054 /* ExampleTests.m */,
-				FD8CEC931F905A7C00716054 /* Info.plist */,
 			);
 			path = ExampleTests;
 			sourceTree = "<group>";
@@ -128,8 +131,8 @@
 		FD8CEC9B1F905A7D00716054 /* ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
+				54670E381FA76F7600275D17 /* Info.plist */,
 				FD8CEC9C1F905A7D00716054 /* ExampleUITests.m */,
-				FD8CEC9E1F905A7D00716054 /* Info.plist */,
 			);
 			path = ExampleUITests;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54670E351FA76F4C00275D17 /* Info.plist in Resources */,
 				FD8CEC851F905A7C00716054 /* LaunchScreen.storyboard in Resources */,
 				FD8CEC821F905A7C00716054 /* Assets.xcassets in Resources */,
 				FD8CEC801F905A7C00716054 /* Main.storyboard in Resources */,
@@ -259,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54670E371FA76F6400275D17 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54670E391FA76F7600275D17 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,11 +450,12 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,11 +466,12 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

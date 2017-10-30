@@ -15,18 +15,14 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 	self.view.backgroundColor = SA_GRAY_COLOR;
-	
 }
 
 
-- (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
-}
+- (void)didReceiveMemoryWarning { [super didReceiveMemoryWarning];}
 
 
 @end
